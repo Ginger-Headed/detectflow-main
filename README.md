@@ -1,6 +1,6 @@
 # SOC Prime DetectFlow OSS
 
-Detection intelligence turbocharged with AI. Enable line-speed detection of cyberattacks by equipping your team with AI, trained on 11 years of Detection Intelligence. 
+Detection intelligence turbocharged with AI. Enable line-speed detection of cyberattacks by equipping your team with AI trained on 11 years of Detection Intelligence. 
 
 Elevate your daily work from SIEM min-maxing to Detection Orchestration across Data Pipelines, AIDR, EDR, Data Lake, and SIEM. 
 
@@ -78,9 +78,7 @@ Prerequisites:
  - At least 40 GB of disk space
  - Outbound internet access allowed:
    - to *.socprime.com for API access to the SOC Prime Platform for synchronizing detections (optional, API key needed)
-   - to *.github.com for pulling open-source detections using GitHub Integration with public open source repositories, including SigmaHQ, Microsoft, Splunk, and Elastic (optional)
-
-Setup guide: [detectflow-one-click-local-deployment](https://github.com/socprime/detectflow-one-click-local-deployment)
+   - to *.github.com for pulling open-source detections using GitHub Integration with public open-source repositories, including SigmaHQ, Microsoft, Splunk, and Elastic (optional)
 
 In terms of calculating required resources, the following components of DetectFlow should be considered, with individual requirements for each component summed up to estimate the total amount:
 - **User Interface Node (Admin Panel)** is the control center to manage event matching processes. This component requires at least 2 CPUs and 4 GB RAM
