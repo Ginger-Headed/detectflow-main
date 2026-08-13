@@ -55,14 +55,32 @@ Consult each project for more details.
 - Kubernetes 1.28+ (https://kubernetes.io/)
 - PostgreSQL 14+ (https://www.postgresql.org/)
 - Apache Flink 1.13+ (can be deployed together with DetectFlow) (https://flink.apache.org/)
-
+ 
 ### Network and infrastructure:
+
+DetectFlow supports two deployment paths, depending on the resources available.
+
+#### Standard deployment: Kubernetes cluster
 - Internal access to deployed resources
 - Network connectivity between deployed resources
-- Kubernetes cluster with at least 3 nodes(workers) (min 8 vCPUs, 32 GiB RAM each). For a more detailed calculation
+- Kubernetes cluster with at least 3 nodes (workers) (min 8 vCPUs, 32 GiB RAM each).
 - Outbound internet access allowed:
-    - to *.socprime.com for API access to the SOC Prime Platform for synchronizing detections (optional, API key needed)
-    - to *.github.com for pulling open-source detections using GitHub Integration with public open source repositories, including SigmaHQ, Microsoft, Splunk, and Elastic (optional)
+   - to *.socprime.com for API access to the SOC Prime Platform for synchronizing detections (optional, API key needed)
+   - to *.github.com for pulling open-source detections using GitHub Integration with public open source repositories, including SigmaHQ, Microsoft, Splunk, and Elastic (optional)
+
+#### Lightweight deployment: Minikube (local, single machine)
+For evaluation, testing, or environments where a full Kubernetes cluster isn't available, DetectFlow can also be deployed locally on a single machine using Minikube.
+
+Prerequisites:
+ - macOS with Homebrew
+ - Docker Desktop installed and running (8+ GB memory allocated in Docker Desktop → Settings → Resources)
+ - At least 4 CPU cores available
+ - At least 40 GB of disk space
+ - Outbound internet access allowed:
+   - to *.socprime.com for API access to the SOC Prime Platform for synchronizing detections (optional, API key needed)
+   - to *.github.com for pulling open-source detections using GitHub Integration with public open source repositories, including SigmaHQ, Microsoft, Splunk, and Elastic (optional)
+
+Setup guide: [detectflow-one-click-local-deployment](https://github.com/socprime/detectflow-one-click-local-deployment)
 
 In terms of calculating required resources, the following components of DetectFlow should be considered, with individual requirements for each component summed up to estimate the total amount:
 - **User Interface Node (Admin Panel)** is the control center to manage event matching processes. This component requires at least 2 CPUs and 4 GB RAM
