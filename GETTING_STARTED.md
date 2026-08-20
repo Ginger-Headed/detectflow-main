@@ -9,7 +9,7 @@
 </p>
 
 # Getting Started
-_For the general architecrute and other info about Prime Detect, see [README.md](README.md)._
+_For the general architecrute and other info about Prime Detect, see [README.md](README.md). DetectFlow is being renamed to Prime Detect. The new name will be reflected across all resources and assets in the next release_
 
 Prime Detect matches log events from Kafka topics with Sigma detection rules and tags each matched event with additional metadata related to the matched rules:
 - ID
