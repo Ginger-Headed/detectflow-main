@@ -9,7 +9,7 @@
 </p>
 
 # Full Deployment
-_For the general architecture and other info about Prime Detect, see [README.md](README.md)._
+_For the general architecture and other info about Prime Detect, see [README.md](README.md). DetectFlow is being renamed to Prime Detect. The new name will be reflected across all resources and assets in the next release._
 
 Deployment should be performed by a person with expertise in Kubernetes and admin access to the Kubernetes Cluster provided for this project.
 
