@@ -1,3 +1,13 @@
+<p align="center">
+  <a href="https://primedetect.live"><img src="static/image/Prime Detect_x2__1280px.png" alt="Prime Detect"></a>
+</p>
+
+<p align="center">
+  <a href="https://socprime.com/detectflow/#demo-form"><img src="static/image/Button Contact sales.png" alt="Contact sales" height="48"></a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=FYI4y1YiW7c"><img src="static/image/Button Youtube.png" alt="Watch video" height="48"></a>
+</p>
+
 # Getting Started
 _For the general architecrute and other info about DetectFlow, see [README.md](README.md)._
 
