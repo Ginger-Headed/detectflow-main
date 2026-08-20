@@ -1,4 +1,12 @@
-# SOC Prime DetectFlow OSS
+<p align="center">
+  <a href="https://primedetect.live"><img src="static/image/Prime Detect_x2__1280px.png" alt="Prime Detect"></a>
+</p>
+
+<p align="center">
+  <a href="https://socprime.com/detectflow/#demo-form"><img src="static/image/Button Contact sales.png" alt="Contact sales" height="48"></a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=FYI4y1YiW7c"><img src="static/image/Button Youtube.png" alt="Watch video" height="48"></a>
+</p>
 
 Detection intelligence turbocharged with AI. Enable line-speed detection of cyberattacks by equipping your team with AI trained on 11 years of Detection Intelligence. 
 
